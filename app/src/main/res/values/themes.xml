@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewChats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_700</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="tabBackground">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="ActionBarContainer"  >
+    </style>
+    <style name="TabLayout">
+    </style>
+    <style name="TapPages">
+        <item name="android:background">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="recentItem">
+
+    </style>
+
+    <style name="recentItemLongPressMenu">
+
+    </style>
+
+    <style name="phoneTextEdit">
+
+    </style>
+
+    <style name="Theme.NewChats.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NewChats.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

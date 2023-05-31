@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewChats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_dark_500</item>
+        <item name="colorPrimaryVariant">@color/teal_dark_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_dark_500</item>
+        <item name="colorSecondaryVariant">@color/teal_dark_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+    <style name="ActionBarContainer">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="TabLayout">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="TapPages">
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="recentItem">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+    <style name="phoneTextEdit">
+        <item name="backgroundTint">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="recentItemLongPressMenu">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+</resources>
